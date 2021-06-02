@@ -1,3 +1,3 @@
-# bmi_calculator
+# BMI Calculator
 
 Simple project challenge
