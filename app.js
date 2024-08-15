@@ -11,10 +11,10 @@ function calculateBMI() {
 
   let bmi = (weight / ((height * height) / 10000)).toFixed(2);
 
-  if (bmi < 18.5) result.innerHTML = `Under Weight : <span>${bmi}</span>`;
+  if (bmi < 18.5) result.innerHTML = `Bajo peso : <span>${bmi}</span>`;
   else if (bmi >= 18.6 && bmi <= 25.0)
     result.innerHTML = `Normal : <span>${bmi}</span>`;
   else if (bmi >= 25.1 && bmi <= 30.0)
-    result.innerHTML = `Over Weight : <span>${bmi}</span>`;
-  else result.innerHTML = `Obese : <span>${bmi}</span>`;
+    result.innerHTML = `Sobre peso : <span>${bmi}</span>`;
+  else result.innerHTML = `Obeso : <span>${bmi}</span>`;
 }
